@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 module "hcp" {
   count                         = var.peering_connection_has_been_added_to_hvn ? 1 : 0
   source                        = "joatmon08/hcp/aws"

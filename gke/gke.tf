@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 data "google_container_engine_versions" "k8s" {
   provider       = google-beta
   version_prefix = "1.17."
